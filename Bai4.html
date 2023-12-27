@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all {
+            background-color: rgb(228, 219, 219);
+            width: 500px;
+            height: 500px;
+            position: relative;
+        }
+
+        .bang {
+            background-color: aliceblue;
+            width: 300px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label,
+        input {
+            margin-top: 5px;
+            display: inline-block;
+            margin-left: 10px;
+            padding: 2px;
+        }
+
+        form {
+            padding: 5px;
+        }
+
+        button {
+            margin-left: 20px;
+            margin-top: 30px;
+            color: white;
+            background-color: black;
+            padding: 8px;
+            border: none;
+            bottom: 0;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <header>
+            <h1>Tuyển dụng</h1>
+        </header>
+        <div class="bang">
+            <form action="">
+                <label for="name">Họ và tên</label> <br>
+                <input required type="text" name="name" id="name"> <br>
+                <label for="email">Email</label> <br>
+                <input type="text" name="email" id="email"> <br>
+                <label for="numbers">Số điện thoại</label> <br>
+                <input type="number" name="numbers" id="numbers"> <br>
+                <label for="">CV</label> <br>
+                <input type="file" name="" id=""> <br>
+                <label for="mess">Tin Nhắn</label> <br>
+                <input type="text" name="mess" id="mess"> <br>
+                <button>Gửi</button>
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
